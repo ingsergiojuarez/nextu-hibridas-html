@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>MI TAREA</title>
+        <meta charset="UTF-8">
+
+    </head>
+    <body>
+        <img src="images/logo.svg" alt="Logo" width="50px">
+        <h1>HOJA DE VIDA</h1>
+        <h2>Sergio Juarez</h2>
+        <h3>15/08/1988 Progreso - Santa Fe - Argentina</h3>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+        <hr>
+        <h2>Educación</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2006</td>
+                    <td>Universidad Nacional del Litoral</td>
+                    <td>Santa Fe</td>
+                    <td>Si</td>
+                </tr>
+
+                <tr>
+                    <td>2008</td>
+                    <td>Ceia Santa Fe y CoNaPEA</td>
+                    <td>Santa Fe</td>
+                    <td>Si</td>
+                </tr>
+            </tbody>
+        </table>
+        <form name="agregarEstudio">
+
+            <p>
+                <b><label for="anio">Año</label></b>
+                <select name="anio">
+                    <option value="1">2016</option>
+                    <option value="2">2017</option>
+                    <option value="3">2018</option>
+                    <option value="4">2019</option>
+                    <option value="5">2020</option>
+                    <option value="6">2021</option>
+                    <option value="7">2022</option>
+                </select>
+            </p>
+
+            <p>
+                <b><label  for="institucion" >Instituci&oacute;n: </label></b>
+                <input type="text" name="institucion">
+            </p>
+
+            <p>
+                <b><label for="lugar">Lugar </label></b>
+                <textarea name="lugar" rows="2" cols="20">
+                </textarea>
+            </p>
+            <p>
+                <b><label for="culmino">¿Culmin&oacute;? </label></b>
+                <input type="radio" name="culmino"> Si
+                <input type="radio" name="culmino"> No
+            </p>
+
+
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+
+       <hr>
+    </body>
+    <footer>
+         <ul>
+            <li>Mail: Sergiojuarezz@hotmail.com</li>
+            <li>Facebook: Sergio Juarez</li>
+            <li>Tel:03497-15485469</li>
+            <li>Dirección: Corientes 4149 - Santa Fe - Santa Fe</li>
+        </ul>
+    </footer>
+</html>
